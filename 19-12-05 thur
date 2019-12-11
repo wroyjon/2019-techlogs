@@ -1,0 +1,47 @@
+
+*09:51 embark on a serious study of operating systems 
+
+#10:00 ymca
+
+#12:00 VA, good visit , Chem7, cholesterol, flu shot, shinkle booster 125/75, 88
+
+#15:00 sweetT
+
+#18:00  home, news bath
+
+*20:00 pointers, freebsd install, freebsd-update, pkg install nano bash , add sudo 
+pkg install sudo 
+
+visudo command uses vi as the editor here some tips to use it:
+
+    Switch to root, (su root), then run visudo, (as above).
+    Find where it says "root ALL=(ALL) ALL".
+    Type "o" to insert a new line below it.
+    Now type what you want to insert, eg "username ALL=(ALL) ALL".
+    Hit esc to exit insert-mode.
+    Type ":x" to save and exit.
+
+https://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html
+
+*20:11/usr/local/etc/ 
+
+visudo
+
+https://www.tecmint.com/things-to-do-after-installing-freebsd/
+
+*20:22 we're doing the above right now 
+
+cat /etc/shells
+
+cat /etc/shells
+# chsh -s /bin/csh your_user
+
+
+setting up the network
+
+ifconfig -a 
+
+#21:00 bed
+
+
+

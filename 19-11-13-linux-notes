@@ -1,0 +1,17 @@
+bash scripts 
+
+#!/bin/bash
+
+chmod +x <file.sh>
+
+./<file.sh> 
+
+
+
+renaming files on the command line
+
+mv <filename> <new_filename> 
+
+ls -l    list  the files with  permissions 
+
+ 

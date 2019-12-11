@@ -1,0 +1,159 @@
+*09:44 saturday 
+*
+*finding the clock generator on the motherboard
+*
+*https://www.youtube.com/watch?v=NgtuFc11Pqg
+*
+*ICS UD480076  0429  950227AF
+*
+*how to fix a dead computer
+*
+*https://www.youtube.com/watch?v=Zz9pMKy9Mbs
+*
+*custom builds can give you some quality you won't get from mass production if your careful
+*
+*HP uses torx screws - 
+*
+*plug it in, video cable, save power cable for last 
+*powers on, no video 
+*powers off, ->  motherboard and power supply are communicating 
+*fans spin, see if the fan on the video card spins, if not, start there 
+*
+*TAKE YOUR TIME - LET THE CAPS DRAIN OFF, PULL THE PLUG, HIT THE POWER ON BUTTON 
+*TO DRAIN OFF THE RESIDUAL CHARGES 
+*
+*any PCI express video card should work for diagnostics 
+*
+*NEVER FORCE ANYTHING, make sure stuff is aligned 
+*
+*
+*swap the video card, try it 
+*
+*swap the power supply , try it 
+*
+*when you don't know what's wrong you have to test everything, you can assume nothing 
+*
+*ANTEK 500 watt power supply is a great powersupply 
+*
+*so the power supply is ok, too,  
+*
+*so far we know, not the video card and not the power supply 
+*
+*also, the system spontaneously turned itself off 
+*
+*what's next? 
+*
+*unplug the hard drives 
+*
+*POST - power on self test
+*
+*
+*pull the network card 
+*
+*working your way down, getting rid of anything that might cause it not to POST
+*
+*do it one thing at a time, it takes longer, but, clean results
+*
+*now find the BIOS , then look for a little jumper on the motherboard to "clear" the BIOS
+*sometimes a brown out with cause the BIOS to get confused 
+*
+*find the battery,  check it with a battery tester
+*
+*let it sit at least an hour for the BIOS to drain 
+*
+*replace the battery 
+*
+*
+*plug it back in and try it , it usually will take 30 seconds longer to boot after a BIOS reset
+*
+*
+*pull the power plug, wait for the fans to stop, hit the power button again 
+*
+*pull some of the RAM,  - it booted 
+*
+*
+*AMD that nobody could fix 
+*
+*https://www.youtube.com/watch?v=m0ibfk71Fu0
+*
+*PCI slots  4x, 8x,  16x express pci (fastest - where you want the graphics card) 
+*
+*cable management 
+*
+*
+*AC97 is an actual physical cable 
+*HD - is the modern audio interface 
+*
+*motherboard  GiGAbythe GA FX990A UD3
+*2GB ram DDR5 card
+*
+*
+*cable management 
+*use nylon zip ties 
+*cables should run parallel to each other 
+*
+*MSI video card 
+*
+*PCI express slots x1, x2, x4, x8, x16 - has to do with databus width 
+*
+*graphics card should go in first PCI slot b/c it is the fastest, closest to CPU
+*
+*
+*SATA ports are all not equal either, what drives are plugged into where makes a difference
+*in performance 
+*
+*CPU AMD FX 
+*
+*thermal compound, CPUs are designed to run up to 100 degree celcius
+*
+*AMD CPUs.tend to run hotter, don't have the thresh hold for heat that intel does 
+*
+*use more power, (run hotter), cost more money to run 
+*
+*
+*
+*13:04 day 30 motherboard components A+ certhttps://en.wikipedia.org/wiki/Wikipedia:About
+*
+*20:28 
+*
+* http://ptgmedia.pearsoncmg.com/imprint_downloads/pearsonitcertification/digitalstudyguide/9780134540030/ch30.html   
+*
+*work on recovering maggie's data
+*hx
+*oct -> redline on C drive , critical disk space shortage , start working on moving 
+*data off C-drive to goflex 
+*
+*nov2018 -> clip to windows 10, recover win7 data to intermediate drive 
+*       dump to goflex, USB stick, CDs (back around 2014) 
+*
+*nov2019 -> move data from goflex to new terabyte drive. retire goflex 
+*
+*
+#work on my internal conversation, emotional state, i am not a very good teacher 
+#probably because i don't know the material that well myself 
+#frustrated and angry with windows changing things as we work on it 
+*
+*
+*22:53 motherboard, AMD chips run hotter, shutdown at 70 degrees C
+*
+*
+*ASUS motherboard user manuals 
+* 
+*FSB front side bus
+*DDR SDRAM
+*23:56  
+*
+*
+*SDRAM synchronous dynmic random access memory 
+*
+*  so RAM has to argree with the motherboard/cpu speeds 
+*
+*CDI - course work 
+*  review mag core memory  three wires, set, reset, and sense 
+* then you had the CMOS ram , with the refresh circuitry 
+* CMOS was just coming in, 
+*
+*
+*
+*
+#23:42 bath and bed 

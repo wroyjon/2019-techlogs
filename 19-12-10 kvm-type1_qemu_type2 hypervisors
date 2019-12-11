@@ -1,0 +1,17 @@
+*14:12
+
+So to conclude QEMU is a type 2 hypervisor that runs within user space and performs virtual hardware emulation, where as KVM is a type 1 hypervisor that runs in kernel space, that allows a user space program access to the hardware virtualization features of various processors.
+
+
+** the original mother's milk 
+
+/home/roy/Documents/IBM CP-VM.pdf  
+
+
+*16:00
+#nice stuff, just don't have time for it now 
+#https://realpython.com/playing-and-recording-sound-python/
+##https://simpleaudio.readthedocs.io/en/latest/functionchecks.html 
+
+#HAR - cut brush around water tank 
+

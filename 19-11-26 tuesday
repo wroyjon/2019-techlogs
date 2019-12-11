@@ -1,0 +1,124 @@
+
+
+09:24
+
+TALK - piano, insane tempos +200
+
+channel i/o https://en.wikipedia.org/wiki/Channel_I/O
+
+
+dma controller - https://en.wikipedia.org/wiki/Direct_memory_access
+
+*big topic, dma is used for memory, graphics, network, sound cards and interchip data transfers
+
+remember Minix?  - guess who's handling the interrupts - CP - the control program 
+ 3k lines of C code with a little assembler, but on the actual chip it's just burned
+into memory, you can't access it, well, the network admins can theoretically do 
+some things 
+
+** attach Minix stuff here 
+
+
+oh so anyway, Minix is the control program where we build our first layer of virtualization - freeBSD. 
+
+*****
+
+DMA can also be used for "memory to memory" copying or moving of data within memory. DMA can offload expensive memory operations, such as large copies or scatter-gather operations, from the CPU to a dedicated DMA engine. An implementation example is the I/O Acceleration Technology. DMA is of interest in network-on-chip and in-memory computing architectures. 
+
+
+*************
+
+review disk drive technology 
+
+https://en.wikipedia.org/wiki/Disk_storage
+
+graphics - i've always found it annoying, 
+https://en.wikipedia.org/wiki/Video_card
+
+probably my batch jobs, command line experience LOL 
+
+networks - and networks frightening - my spook experience 
+https://en.wikipedia.org/wiki/Network_interface_controller\
+
+sound cards - where my heart lies 
+https://en.wikipedia.org/wiki/Sound_card
+
+hardware and OS - what we do for a living 
+
+https://en.wikipedia.org/wiki/Multi-core_processor
+
+
+****************************************************************
+
+re-entrant code 
+
+GNU assembler - https://en.wikipedia.org/wiki/GNU_Assembler
+
+
+****************************************************************
+
+PRACTICAL THINGS
+
+HOW DO I BACKUP MY UBUNTU SYSTEM ON THE PUREX US  2.0 DRIVE 
+
+15:33
+
+https://clonos.tekroutine.com/
+
+what does it back up ? 
+
+/roy/files 
+
+not configuration , ie, add-on installs, etc 
+
+
+moved music files to passport drive 
+
+would like to backup downloads, can't mount 160 gb drive, root owns it 
+
+
+****************************************************************************
+
+19:26  virtual OS topics 
+
+coursera hardware architecture (princeton)
+
+amd64 risc or cisc architecture - hybrid risc/cisc since 5th generation
+
+AMD CPUs use a hybrid CISC/RISC architecture since their 5th generation CPUs (namely K5). Intel started using this approach only from their 6th generation CPUs on. The processor must accept CISC instructions, also known as x86 instructions, since all software available today is written using this kind of instructions. A RISC-only CPU couldn’t be create for the PC because it wouldn’t run software we have available today, like Windows and Office.
+
+So, the solution used by all processors available on the market today from both AMD and Intel is to use a CISC/RISC decoder. Internally the CPU processes RISC-like instructions, but its front-end accepts only CISC x86 instructions. 
+
+https://www.hardwaresecrets.com/inside-amd64-architecture/
+
+
+https://www.hardwaresecrets.com/inside-amd64-architecture/7/
+
+
+
+When you double click on an icon to run a program, here is what happens:
+
+1. The program, which is stored inside the hard disk drive, is transferred to the RAM memory. A program is a series of instructions to the CPU.
+2. The CPU, using a circuit called memory controller, loads the program data from the RAM memory.
+3. The data, now inside the CPU, is processed.
+4. What happens next will depend on the program. The CPU could continue to load and executing the program or could do something with the processed data, like displaying something on the screen.
+
+https://www.hardwaresecrets.com/everything-you-need-to-know-about-ata-66-ata-100-and-ata-133-hard-disks/
+
+ATA - advanced technology attachment  - integrates the drive controller directly on the drive itself
+
+CPU - addressing modes, 
+
+EPT
+
+Extended Page Tables (EPT) is an Intel second-generation x86 virtualization technology for the memory management unit (MMU). ... EPT is required in order to launch a logical processor directly in real mode, a feature called "unrestricted guest" in Intel's jargon, and introduced in the Westmere microarchitecture.
+
+https://en.wikipedia.org/wiki/Second_Level_Address_Translation
+
+interrupt controllers
+
+APIC - intel Advanced programmable interrup controller 
+
+
+
+

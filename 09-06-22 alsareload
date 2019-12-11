@@ -1,0 +1,18 @@
+kroy@tweek:~$ sudo alsa force-reload
+
+kroy@tweek:~$ sudo alsa force-reload
+[sudo] password for kroy: 
+lsof: WARNING: can't stat() fuse.gvfs-fuse-daemon file system /home/kroy/.gvfs
+      Output information may be incomplete.
+Terminating processes: 5845 6098 8967lsof: WARNING: can't stat() fuse.gvfs-fuse-daemon file system /home/kroy/.gvfs
+      Output information may be incomplete.
+lsof: WARNING: can't stat() fuse.gvfs-fuse-daemon file system /home/kroy/.gvfs
+      Output information may be incomplete.
+.
+lsof: WARNING: can't stat() fuse.gvfs-fuse-daemon file system /home/kroy/.gvfs
+      Output information may be incomplete.
+Unloading ALSA sound driver modules: snd-intel8x0 snd-ac97-codec snd-pcm-oss snd-mixer-oss snd-pcm snd-seq-dummy snd-seq-oss snd-seq-midi snd-rawmidi snd-seq-midi-event snd-seq snd-timer snd-seq-device snd-page-alloc.
+Loading ALSA sound driver modules: snd-intel8x0 snd-ac97-codec snd-pcm-oss snd-mixer-oss snd-pcm snd-seq-dummy snd-seq-oss snd-seq-midi snd-rawmidi snd-seq-midi-event snd-seq snd-timer snd-seq-device snd-page-alloc.
+kroy@tweek:~$ 
+
+

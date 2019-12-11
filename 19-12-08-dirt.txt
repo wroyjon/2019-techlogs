@@ -1,0 +1,78 @@
+total 392
+drwxr-xr-x 31 roy  roy,nwheelo       4096 Dec  8 15:03 .
+drwxr-xr-x  4 root root              4096 Sep 27 10:04 ..
+-rw-r--r--  1 roy  roy,nwheelo       1024 Nov 12 12:26 .11-09-12.swp
+-rw-r--r--  1 roy  roy,nwheelo        191 Nov  8 17:30 19-11-08 rjw_venv
+-rw-r--r--  1 roy  roy,nwheelo        178 Nov 13 14:43 19-11-13-linux-notes
+-rw-r--r--  1 roy  roy,nwheelo        194 Nov 13 13:16 19-11-13-tunings-temperaments
+-rw-r--r--  1 roy  roy,nwheelo        202 Nov 17 09:53 19-11-17_rjw
+-rw-r--r--  1 root root                40 Nov 18 14:26 19-11-18_rjw
+-rw-r--r--  1 roy  roy,nwheelo        167 Nov 19 08:58 19-11-19b unix notes
+-rw-r--r--  1 roy  roy,nwheelo       1305 Nov 19 08:55 19-11-19 unix notes
+-rw-r--r--  1 roy  roy,nwheelo        834 Nov 23 00:53 19-11-21 rjw freebsd install_notes
+-rw-r--r--  1 roy  roy,nwheelo       4379 Nov 27 12:18 19-11-26 tuesday
+-rw-r--r--  1 roy  roy,nwheelo      10927 Nov 28 08:39 19-11-27 wednesday
+-rw-r--r--  1 roy  roy,nwheelo       2204 Nov 29 10:42 19-11-28 rjw
+-rw-r--r--  1 roy  roy,nwheelo       4099 Nov 30 23:45 19-11-30 rjw
+-rw-r--r--  1 roy  roy,nwheelo        144 Dec  1 09:40 19-12-01 sunday
+-rw-r--r--  1 roy  roy,nwheelo        148 Dec  3 09:04 19-12-02 monday
+-rw-r--r--  1 roy  roy,nwheelo        979 Dec  6 08:34 19-12-05 thur
+-rw-r--r--  1 roy  roy,nwheelo        601 Dec  7 10:38 19-12-06 friday
+-rw-r--r--  1 roy  roy,nwheelo       3082 Dec  8 03:33 19-12-07 saturday
+-rw-r--r--  1 roy  roy,nwheelo          0 Dec  8 15:03 19-12-08-dirt.txt
+-rw-r--r--  1 roy  roy,nwheelo      15980 Dec  8 14:37 19-12-08 sunday
+drwxr-xr-x  4 roy  roy,nwheelo       4096 Dec  7 22:03 .audacity-data
+drwxr-xr-x  3 roy  roy,nwheelo       4096 Nov 22 07:17 audacity-manual-master
+-rw-------  1 roy  roy,nwheelo      13121 Dec  8 10:00 .bash_history
+-rw-r--r--  1 roy  roy,nwheelo        220 Sep 27 11:19 .bash_logout
+-rw-r--r--  1 roy  roy,nwheelo       3771 Sep 27 11:19 .bashrc
+-rw-r--r--  1 roy  roy,nwheelo       2263 Nov 11 19:35 big_iron_on_his_hip.txt
+drwx------ 25 roy  roy,nwheelo       4096 Dec  7 22:50 .cache
+drwx------ 21 roy  roy,nwheelo       4096 Dec  7 09:40 .config
+-rw-r--r--  1 roy  roy,nwheelo       1695 Dec  1 09:51 CSmerryxmasletter
+-rw-r--r--  1 roy  roy,nwheelo       1288 Nov 15 18:56 DEFINITIONS.txt
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Dec  5 09:40 Desktop
+drwxr-xr-x  5 roy  roy,nwheelo       4096 Nov  8 22:04 django-portfolio
+drwxr-xr-x  3 roy  roy,nwheelo       4096 Dec  7 12:14 Documents
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Dec  7 22:56 Downloads
+drwx------  8 roy  roy,nwheelo       4096 Dec  8 14:23 .dropbox
+drwx------  4 roy  roy,nwheelo       4096 Dec  8 14:23 Dropbox
+drwxrwxr-x  3 roy  roy,nwheelo       4096 Dec  4 19:01 .dropbox-dist
+-rw-r--r--  1 roy  roy,nwheelo       8980 Sep 27 11:19 examples.desktop
+drwxr-xr-x  8 roy  roy,nwheelo       4096 Oct 25 20:53 .git
+-rw-r--r--  1 roy  roy,nwheelo         37 Oct 25 20:52 .gitconfig
+drwx------  3 roy  roy,nwheelo       4096 Sep 27 10:04 .gnupg
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Oct 10 03:32 .gphoto
+drwxr-xr-x  3 roy  roy,nwheelo       4096 Nov  3 16:34 .hydrogen
+-rw-------  1 roy  roy,nwheelo      31494 Dec  8 14:23 .ICEauthority
+-rw-r--r--  1 roy  roy,nwheelo      15412 Nov 19 08:44 ifconfig_freebsd_2019-11-19_08:44:15.png
+-rwxr-xr-x  1 roy  roy,nwheelo        119 Nov 13 14:19 install_muse_score.sh
+drwx------  6 roy  roy,nwheelo       4096 Oct  3 08:18 .local
+-rw-r--r--  1 root root        8589934592 Dec  8 08:57 minix.img
+drwx------  5 roy  roy,nwheelo       4096 Sep 27 11:30 .mozilla
+drwxr-xr-x  7 roy  roy,nwheelo       4096 Dec  7 17:06 Music
+drwxr-xr-x  5 roy  roy,nwheelo       4096 Nov  9 09:18 myenv
+-rw-r--r--  1 roy  roy,nwheelo       1024 Nov 12 12:26 .on.swp
+drwxr-xr-x  7 roy  roy,nwheelo       4096 Oct 17 22:20 orionwp
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Sep 27 11:30 Pictures
+-rw-r--r--  1 roy  roy,nwheelo        138 Nov  9 21:50 Pipfile
+-rw-r--r--  1 roy  roy,nwheelo        807 Sep 27 11:19 .profile
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Sep 27 11:30 Public
+-rw-------  1 roy  roy,nwheelo        699 Oct  3 15:44 .pythonhist
+-rw-------  1 roy  roy,nwheelo        629 Dec  8 14:47 .python_history
+-rw-r--r--  1 roy  roy,nwheelo         28 Oct 25 20:53 README.md
+-rw-r--r--  1 roy  roy,nwheelo        474 Dec  6 19:40 rjw_file_handler.py
+drwxr-xr-x  4 roy  roy,nwheelo       4096 Nov 27 19:35 snap
+-rw-r--r--  1 roy  roy,nwheelo          0 Nov 18 15:13 somefilename
+drwx------  2 roy  roy,nwheelo       4096 Sep 27 10:04 .ssh
+-rw-r--r--  1 roy  roy,nwheelo          0 Sep 27 10:04 .sudo_as_admin_successful
+-rw-------  1 roy  roy,nwheelo      12288 Oct  3 15:29 .swp
+-rw-r--r--  1 roy  roy,nwheelo       1024 Nov 12 12:26 .temperatment.swp
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Sep 27 11:30 Templates
+-rw-r--r--  1 roy  roy,nwheelo         10 Nov 30 23:49 test
+-rwxr-xr-x  1 roy  roy,nwheelo         69 Nov  9 22:05 this_is_a_test.sh
+drwx------  5 roy  roy,nwheelo       4096 Dec  6 21:17 .thonny
+drwx------  6 roy  roy,nwheelo       4096 Nov 11 09:32 .thunderbird
+-rw-------  1 roy  roy,nwheelo          3 Nov 13 13:16 tuning.save
+drwxr-xr-x  5 roy  roy,nwheelo       4096 Nov  8 17:17 venv
+drwxr-xr-x  2 roy  roy,nwheelo       4096 Sep 27 11:30 Videos

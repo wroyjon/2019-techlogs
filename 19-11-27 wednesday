@@ -1,0 +1,212 @@
+08:00 CS pool, BB, wendy's
+12:19  CBSD. Bhyve. jail (8), Minix CP, AMD64 instruction set , system calls 
+
+12:38  20 minutes, where does the time go?, hang up swimming suits to dry, look for earplugs
+smoke a bowl LOL, 
+
+now we're back - why spend time here?  $$$ is why if your good and you as long as you can 
+sit in front of a keyboard you can work, deliver stuff that works and nobody cares if you are 
+8 or 80, white or black, little or big, man or woman, just be able to talk to the machine 
+
+
+the whole hypervisor tutorial https://github.com/SinaKarvandi/Hypervisor-From-Scratch
+
+NOTES - pass 1  ************************************************************************
+
+rayanfam.com/topics/hypervisor-from-scratch-part-1/
+
+why use windows?  
+Hypervisor and Platform 
+
+These concepts are platform independent, I mean you can easily run the same code routine in both Linux or Windows and expect the same behavior from CPU but I prefer to use Windows as its more easily debuggable (at least for me.) but I try to give some examples for Linux systems whenever needed. Personally, as Linux kernel manages faults like #GP and other exceptions and tries to avoid kernel panic and keep the system up so it’s better for testing something like hypervisor or any CPU-related affair. On the other hand, Windows never tries to manage any unexpected exception and it leads to a blue screen of death whenever you didn’t manage your exceptions, thus you might get lots of BSODs.By the way, you’d better test it on both platforms (and other platforms too.).
+
+At last, I might (and definitely) make mistakes like wrong implementation or misinformation or forget about mentioning some important description so I should say sorry in advance if I make any faults and I’ll be glad for every comment that tells me my mistakes in the technical information or misinformation.
+
+
+#GP - general protection fault - an access violation 
+
+x86 - why, b/c there is so much h/w like that out there 
+question for further research - what does the Mac look like at the h/w level 
+
+https://en.wikipedia.org/wiki/General_protection_fault
+
+windows recognizes only one #GP 
+linux separates them into two classes, segmentation fault (memory) and privilege faults 
+
+General protection faults are raised by the processor when a protected instruction is encountered which exceeds the permission level of the currently executing task, either because a user-mode program is attempting a protected instruction, or because the operating system has issued a request which would put the processor into an undefined state.
+
+General protection faults are caught and handled by modern operating systems. Generally, if the fault originated in a user-mode program, the user-mode program is terminated. If, however, the fault originated in a core system driver or the operating system itself, the operating system usually saves diagnostic information either to a file or to the screen and stops operating. It either restarts the computer or displays an error screen, such as a Blue Screen of Death or kernel panic. 
+
+https://en.wikipedia.org/wiki/Interrupt_vector_table
+ 
+yes there are more than one way to skin a cat, IVT is where the interrupt and the 
+address of the interupt handling routine is store , here is how x86 implements it
+
+https://en.wikipedia.org/wiki/Interrupt_descriptor_table
+
+terms: 
+
+APIC -  advanced programmable interrupt controller 
+
+
+SLAT - second level address translation - used for implementing virtual machines 
+       also known as nested paging  or hardware assisted virtualization technology 
+
+       the hardware manages paging rather than software managed shadow page tables 
+
+https://en.wikipedia.org/wiki/Page_table
+
+A page table is the data structure used by a virtual memory system in a computer operating system to store the mapping between virtual addresses and physical addresses. Virtual addresses are used by the program executed by the accessing process, while physical addresses are used by the hardware, or more specifically, by the RAM subsystem. The page table is a key component of virtual address translation which is necessary to access data in memory. 
+
+A NEW TERM  MiB mebibyte 
+https://en.wikipedia.org/wiki/Mebibyte
+The mebibyte is a multiple of the unit byte for digital information.[1] The binary prefix mebi means 220; therefore one mebibyte is equal to 1048576bytes, i.e., 1024 kibibytes. The unit symbol for the mebibyte is MiB. 
+
+Definition
+
+    1 MiB = 220 bytes = 1048576bytes = 1024 kibibytes
+
+This definition implies that
+
+    1024 MiB = 1 gibibyte (GiB)
+
+The prefix mebi is a binary prefix derived from the SI prefix mega- and the word binary. Its value is a binary (2n) approximation of 106, the base-10 order of magnitude indicated by mega- in SI. One mebibyte (MiB) is 220, i.e. 1024 × 1024 bytes,[8] or 1048576bytes.
+
+Despite its official status, the unit mebibyte is not commonly used even when reporting byte counts calculated in binary multiples, but is often represented as a megabyte. Formally, one megabyte denotes 1000 × 1000 bytes. The discrepancy may cause confusion, since operating systems using the binary method report lower numerical values for storage size than advertised by manufacturers, such as disk drive manufacturers who strictly use decimal units. 
+
+
+17:25
+
+Cray Computers https://www.cray.com/company/history/seymour-cray
+
+https://en.wikipedia.org/wiki/Multi-core_processor
+
+
+this is where we started a week ago 
+https://en.wikipedia.org/wiki/Hypervisor
+
+TRAP - https://en.wikipedia.org/wiki/Trap_(computing)
+
+In SNMP, a trap is a type of PDU used to report an alert or other asynchronous event about a managed subsystem. 
+
+SNMP - simple network management protocol 
+PDU - protocol data unit
+In telecommunications, a protocol data unit (PDU) is a single unit of information transmitted among peer entities of a computer network. A PDU is composed of protocol specific control information and user data. In the layered architectures of communication protocol stacks, each layer implements protocols tailored to the specific type or mode of data exchange. 
+
+
+****REAL WORLD ********************************************************************
+
+HP DeskPro  intel corei5 
+
+AT A GLANCE
+Choice of four form factors: Desktop Mini, Small Form Factor, Microtower and All-in-One (touch and non-touch
+configurations available)
+New commercial design on 400 G4 MT, 400 G4 SFF and 400 G3 DM
+HP-developed and engineered UEFI BIOS supporting security, manageability and software image stability
+H270 chipset supporting both Intel®7 th generation CoreTM processors and Intel® 6th generation CoreTM processors
+Integrated Intel® HD Graphics; optional discrete graphics option available for MT and SFF form factors
+Processor support up to 65W for MT/SFF and up to 35W for Desktop Mini and AiO
+Realtek RTL8111 HSH GbE LOM Network Connection (standard)
+DDR4 Synchronous Dynamic Random Access Memory (SDRAM)
+Standard and high efficiency energy saving power supply options
+ENERGY STAR® certified models available
+EPEAT® Gold registered in the United States. Registration may vary by country. See http://www.epeat.net for registration
+status in your country.
+Arsenic-free
+Dust filter available for all platforms (except AiO)
+
+CHIPSET  intel H270 
+
+SDRAM
+
+
+F10 go to BIOS,  UEFI @HP
+
+VTx,  hypervisor enable 
+VTd - graphics 
+
+copy one SSD drive to another SSD drive 
+
+dd if=/dev/da0, conv=sync,noerr,  bs=4k,  of=/dev/da1 
+
+conv=noerr
+sync - l
+of=/dev/da1
+
+https://superuser.com/questions/622541/what-does-dd-conv-sync-noerror-do/1075837
+
+
+******************************************************************************
+
+families of ISA's 
+
+x86
+
+memory segmentation https://en.wikipedia.org/wiki/X86_memory_segmentation
+
+x86 memory segmentation refers to the implementation of memory segmentation in the Intel x86 computer instruction set architecture. Segmentation was introduced on the Intel 8086 in 1978 as a way to allow programs to address more than 64 KB (65,536 bytes) of memory. The Intel 80286 introduced a second version of segmentation in 1982 that added support for virtual memory and memory protection. At this point the original model was renamed real mode, and the new version was named protected mode. The x86-64 architecture, introduced in 2003, has largely dropped support for segmentation in 64-bit mode. 
+
+Later developments
+
+The x86-64 architecture does not use segmentation in long mode (64-bit mode). Four of the segment registers, CS, SS, DS, and ES, are forced to 0, and the limit to 264. The segment registers FS and GS can still have a nonzero base address. This allows operating systems to use these segments for special purposes. Unlike the global descriptor table mechanism used by legacy modes, the base address of these segments is stored in a model-specific register. The x86-64 architecture further provides the special SWAPGS instruction, which allows swapping the kernel mode and user mode base addresses.
+
+For instance, Microsoft Windows on x86-64 uses the GS segment to point to the Thread Environment Block, a small data structure for each thread, which contains information about exception handling, thread-local variables, and other per-thread state. Similarly, the Linux kernel uses the GS segment to store per-CPU data.
+
+On x64, the CPU powers on into real mode and is indistinguishable from a 32-bit Pentium 4. 64-bit instructions cannot be used unless long mode is set. When long mode is operating, 16-bit instructions and virtual x86 mode are disabled and protected mode disappears.
+
+GS/FS are also used in gcc's thread-local storage and canary-based stack protector.
+
+
+take away 
+
+legacy , 
+ real mode
+ protected mode
+
+AMD-64 
+ long mode, 64 bit addressing , legacy modes disappear
+
+https://thestarman.pcministry.com/asm/debug/Segments.html
+
+
+*********************************************************************************
+using AS
+
+https://sourceware.org/binutils/docs/as/
+
+ASSEMBLER DIRECTIVES 
+
+https://www.sourceware.org/binutils/docs-2.12/as.info/Pseudo-Ops.html#Pseudo%20Ops
+
+
+*****************************************************************************************
+
+install 4GB RAM lenovao T410
+
+remove keyboard, add 4GB to motherboard
+add 2 GB to bay in rear of machine 
+
+total 6GB ram 
+
+**************************************************************************************
+20:45
+
+HP deskpro  3.3 Ghz, 8gb ram , core i5 
+
+notice when you have a core i5 it reports 4 processors avail - where is number 5?
+answer - running the hypervisor - CP, in the case of AMD64, intel core i5 , ARM-64
+ one CPU is running a stripped down version of minix, (if there is such a thing LOL )
+
+yes, that is the CPU that is running the motherboard , (read "computer" ), see Knuth
+art of programming vol1 for a description of MIX and then later Gnu binutils  as  , and ld
+as =: assembler, ld =: linker (linkage editor), 
+
+coreutils NOTEQ binutils 
+
+
+
+
+
+\\\\
+
+

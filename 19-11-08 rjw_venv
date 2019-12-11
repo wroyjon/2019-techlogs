@@ -1,0 +1,11 @@
+17:22 python virtual env
+
+sudo apt-get phython3-pip
+sudo pip3 install virtualenv
+virtualenv venv (could be any named directory)
+source venv/bin/activate
+(venv) $
+deactivate
+
+$ (bash shell) 
+

@@ -1,0 +1,36 @@
+
+
+download the iso image 
+
+burn an iso image to cd-rom (right click on .iso file, select burn a file to disk) 
+OR
+build a virtual machine under KVM 
+   KVM - bios - set allow virtual machines , edit config file to point to network card 
+
+   add a virtual machine - just follow the instructions
+
+10 things to do after you install freebsd
+
+https://www.tecmint.com/things-to-do-after-installing-freebsd/
+
+
+The first thing every system administrator should perform after a fresh installation of an operating system is to make sure the system is up-to-date with the latest security patches and the latest versions of the kernel, package manager and software packages. 
+
+freebsd-update fetch
+freebsd-update install 
+
+To update “Ports” package manager and installed software run the below command.
+
+# pkg update
+# pkg upgrade
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+3
+
+Since you haven't gotten a proper answer, I'll try and provide an incomplete one. ACPI is an interface for discovery and configuration of hardware devices. They can provide Linux with information about critical events using non maskable interrupts (NMI). Each NMI is then connected to a Linux interrupt.
+
+So LAPIC_NMI means Local Advanced Programmable Interrupt Controller Non-Maskable Interrupt. acpi_id[0x01] is the id of that device. I believe 0x01..0x04 corresponds to your computers processor cores.
+
+Then for some reason I don't understand the Linux acpi implementation wants the NMI to be connected to the first Linux interrupt. In your case it isn't and it could mean that if a processor core generates an NMI, it is not trapped correctly by Linux.
+
+In practice I don't think it matters (but don't quote me on that) because the interrupts the mechanism is supposed to trap are exceedingly rare.
+
+
+https://wiki.archlinux.org/index.php/ACPI_modules
+
+note: ACPI and APIC  - two different hardward subsystems 
+
+then there is the /etc (pronunced etZee ) directory 
+
+
+*11:00
+SMP - symmetric multiprocessing 
+https://en.wikipedia.org/wiki/Symmetric_multiprocessing
+
+*11:13 and still digging around in symmtric multiprocessing 
+
+
+
+

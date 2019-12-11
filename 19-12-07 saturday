@@ -1,0 +1,78 @@
+*09:00  rise, email, 
+# toast, dry, one egg fried, fruit, dry wheat bisquits, coffee 
+# remember, we are downtitrating, smaller doses, less frequently 
+# practice being mindful, landmark homework 
+*
+* review notebook notes
+*
+*
+*   
+*
+*11:56  
+*1. In Unix-like operating systems, sh is the executable file of the Bourne shell, a fundamental command line user interface. It is *available on all modern Unix-like systems, including BSD, macOS, and Linux. See our sh command reference for additional information.
+
+*boot freebsd
+*login: roy pw:     
+*roy@freebsd:~%
+*roy@freebsd:~% sh
+*$
+*$ exit 
+*roy@freebsd:~%
+*roy@freebsd:~% bash
+*[roy@freebsd:~]$
+*
+*
+* so what is going on it the above transactions?   
+*
+*bash is the bourne again shell 
+* recall from bash activate module 
+*   $ bash
+*   $ source myenv/bin/activate
+*  (myenv) roy@roy-ThinkPad-T410:~$ 
+****************************************************************************************************************  
+*   [~]$ sh
+*
+*   
+*BIOS vs UEFI 
+*  https://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/
+*   
+* MBR - master boot record 
+*
+*   ACPI, the Advanced Configuration and Power Interface. 
+*
+*  UEFI uses GPT partitioning scheme instead of MBR 
+*
+*GPT stands for GUID Partition Table. It’s a new standard that’s gradually replacing MBR. It’s associated with UEFI, which replaces *the clunky old BIOS with something more modern. GPT, in turn, replaces the clunky old MBR partitioning system with something more *modern. It’s called GUID Partition Table because every partition on your drive has a “globally unique identifier,” or GUID—a random *string so long that every GPT partition on earth likely has its own unique identifier.
+*
+*GPT doesn’t suffer from MBR’s limits. GPT-based drives can be much larger, with size limits dependent on the operating system and *its file systems. GPT also allows for a nearly unlimited number of partitions. Again, the limit here will be your operating system—*Windows allows up to 128 partitions on a GPT drive, and you don’t have to create an extended partition to make them work.
+*
+*On an MBR disk, the partitioning and boot data is stored in one place. If this data is overwritten or corrupted, you’re in trouble. *In contrast, GPT stores multiple copies of this data across the disk, so it’s much more robust and can recover if the data is *corrupted.
+
+https://www.howtogeek.com/184659/beginner-geek-hard-disk-partitions-explained/
+
+https://www.howtogeek.com/449335/how-to-use-the-dmesg-command-on-linux/
+
+sudo dmesg 
+
+BIOS - provided physical RAM map
+
+ACPI - 
+
+TSC https://en.wikipedia.org/wiki/Time_Stamp_Counter
+
+DMI tsc
+
+http://oliveryang.net/2015/09/pitfalls-of-TSC-usage/
+
+time stamp counter is a 64 bit register 
+
+https://en.wikipedia.org/wiki/Memory_type_range_register
+
+https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface
+
+https://en.wikipedia.org/wiki/Advanced_Programmable_Interrupt_Controller
+
+let's you put the channel processor on the disk drive 
+
+http://www.bioscentral.com/misc/cmosmap.htm
+

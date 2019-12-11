@@ -1,0 +1,69 @@
+list hidden files ( dot files 
+
+ls -a
+
+
+pwd -  prints the working directory
+
+
+https://www.interserver.net/tips/kb/linux-commands-check-mounted-files-system/
+
+    $ aptitude search util-linux
+
+    i   util-linux                     – Miscellaneous system utilities
+
+$ findmnt
+
+$ findmnt –l
+
+$ findmnt -D   /* list in df format
+
+$ findmnt -s   /* list the fstab file 
+
+********************************************************************************
+
+sysfs file system - RAM based - talk to the kernel through this file system 
+
+proc file system 
+
+
+UBUNTU 
+
+sudo apt-get install aptitude 
+
+
+how and why to use addusers in freebsd
+
+https://www.instructables.com/id/How-and-why-to-Add-Users-to-FreeBSD/
+
+
+what does sudo do?
+
+sudo is a program to make sysadmin easier, less error prone 
+
+it lets you do superuser (su) commands and not have to be root 
+
+
+install the package manament system on freebsd
+
+pkg update && pkg upgrade
+
+
+*****************************************************************************************
+
+
+verifying the ethernet connection 
+
+ifconfig 
+
+
+
+https://docs.freebsd.org/doc/3.5-RELEASE/usr/share/doc/en/books/ppp-primer/verify-ether-if-config.html
+
+the install led you through the communication setup - in my case wireless 
+
+almost all i do is wireless, very little ethernet 
+
+
+
+

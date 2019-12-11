@@ -1,0 +1,12 @@
+
+
+*16:39 
+Removing the Need for sudo
+
+If you want to avoid having to use sudo each time you use dmesg, you can use this command. But, be aware: it lets anyone with a user account your computer use dmesg without having to use sudo.
+
+sudo sysctl -w kernel.dmesg_restrict=0
+
+
+
+
